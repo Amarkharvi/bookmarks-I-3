@@ -1,0 +1,176 @@
+#header{
+    display: flex;
+    flex-direction: row;
+    background-color:blue;
+    justify-content: stretch;
+    align-items: center;
+    color: white;
+    padding: 5px;
+    font-size: larger;
+
+    
+}
+
+#header .logo{
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.menu a{
+    text-decoration: solid;
+    color: white;
+    
+}
+
+.menu li{
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.user{
+    position: absolute;
+    right: 30px;
+    font-size: large;
+}
+
+.user a{
+    margin-left: 10px;
+    color: yellow;
+    padding: 5px;
+    text-decoration: solid;
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow: yellow;
+    border: 2px;
+    border-style: solid;
+    border-color:white;
+    border-radius: 10%;
+    
+}
+
+.register{
+    padding: 10px;
+    display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px;
+    border-style: solid;
+    width: fit-content;
+    background-color: aliceblue;
+}
+
+
+.register input{
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    justify-content: end;
+}
+.register-btn{
+    background-color: yellowgreen;
+    float: right;
+    color: white;
+    border-color: white;
+}
+
+.login-form { padding: 20px;
+    border-style: solid;
+    border-color:gray;
+    border-width: 2px;
+    width: fit-content;
+    border-radius: 10%;
+    background-color: aliceblue;
+    margin-left: 30px;
+    
+}
+.login-form label{
+    font-size: large;
+    margin: 5px;
+}
+.login-form input{
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    
+}
+.btn{
+    background-color: greenyellow;
+    color: white;
+    border-color: white;
+    text-shadow: 20%;
+    font-size: medium;
+    float: right;
+}
+.forgot-pass{
+padding: 10px;
+margin-top: 10px;}
+
+#social{
+    display: flex;
+    justify-content: center;
+}
+#social ul{
+    list-style-type: none;
+    padding: 5px;
+}
+#social li{
+    padding-bottom: 10px;
+    border: 1px;
+    border-style: solid;
+    margin-bottom: 5px;
+    border-radius: 20px;
+}
+#social a{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    text-decoration: solid;
+}
+
+.facebook {
+    background-color: blue;
+}
+.facebook a{
+    color: white;
+    justify-self: center;
+}
+.twitter {
+    background-color: blueviolet;
+}
+.twitter a{
+    color: white;
+    justify-self: center;
+}
+.google {
+    background-color: red;
+}
+.google a{
+    color: white;
+    justify-self: center;
+}
+
+.people-list{
+    width: fit-content;
+}
+
+.list-ppl{
+    display: flex;
+    flex-direction: column;
+}
+.action img{
+    width: 100px;
+    height: 100px;
+
+}
